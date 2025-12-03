@@ -26,7 +26,10 @@ class Array {
         }
     
     public:
-
+        const T& get(size_t index) const {
+            return data[index];
+        }
+        
         size_t getSize() const {
             return size;
         }
